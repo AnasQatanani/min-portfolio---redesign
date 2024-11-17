@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="page-transition"></div>
+    
+    <header class="header fade-in">
+        <nav class="top-nav">
+            <a href="#" class="nav-link active">Hem</a>
+            <a href="projects.html#contact" class="nav-link">Kontakt</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="hero-section fade-in">
+            <div class="hero-image-placeholder" data-parallax="scroll"></div>
+            
+            <section class="portfolio-intro slide-up">
+                <h1 class="title-animation">MIN PORTFOLIO</h1>
+                <h2 class="subtitle-animation">Vem är jag?</h2>
+                
+                <div class="career-section fade-in">
+                    <h3>Karriär:</h3>
+                    <p>Jag har jobbat som säljare i några år inom IT. 
+                        Alltid haft ett öga för programmering men aldrig agerat på det. Nu senaste 2 åren så har jag viljat komma tillbacka till det och ge det en andra chans.</p>
+                </div>
+
+                <div class="button-container">
+                    <button class="btn-light hover-effect" onclick="navigateToProjects()">Mina Projekt</button>
+                    <button class="btn-dark hover-effect" onclick="window.location.href='projects.html#contact'">Kontakt</button>
+                </div>
+            </section>
+        </div>
+
+        <div class="preview-section fade-in">
+            <div class="preview-grid">
+                <div class="hero-image-placeholder" data-parallax="scroll"></div>
+                <div class="hero-image-placeholder" data-parallax="scroll"></div>
+                <div class="hero-image-placeholder" data-parallax="scroll"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer fade-in">
+        <nav class="bottom-nav">
+            <a href="#" class="nav-link">Hem</a>
+            <a href="projects.html#contact" class="nav-link">Kontakt</a>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
